@@ -1,0 +1,8 @@
+nombre,descripcion,puntos_requeridos,activa,stock
+Descuento 10%,Descuento del 10% en tu próxima reserva,100,True,50
+Descuento 20%,Descuento del 20% en tu próxima reserva,250,True,30
+Descuento 30%,Descuento del 30% en tu próxima reserva,500,True,20
+Noche Gratis,Una noche gratis en propiedades seleccionadas,1000,True,10
+Upgrade Premium,Mejora tu suscripción a Premium por 1 mes,300,True,25
+Servicio Transfer Gratis,Transfer gratuito desde/hacia el aeropuerto,150,True,40
+Desayuno Gratis Semana,Desayuno gratis durante toda tu estancia (máx 7 días),200,True,35

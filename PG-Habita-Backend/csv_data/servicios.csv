@@ -1,0 +1,11 @@
+nombre,descripcion,precio,status,descuento
+Desayuno,Desayuno completo para huéspedes,15.00,True,0.00
+Transfer,Transporte aeropuerto,25.00,True,5.00
+Limpieza,Limpieza adicional,20.00,True,0.00
+Tour Guiado,Visita guiada por la ciudad,50.00,True,10.00
+Spa,Acceso al spa,80.00,True,15.00
+Chef,Servicio de chef privado,150.00,True,20.00
+Alquiler Auto,Alquiler de vehículo,60.00,True,10.00
+Mascotas,Cuidado de mascotas,30.00,True,0.00
+Lavandería,Lavandería express,18.00,True,0.00
+Internet,Internet alta velocidad,10.00,True,0.00

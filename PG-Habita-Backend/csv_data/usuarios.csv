@@ -1,0 +1,11 @@
+username,correo,N_Cel,fecha_Nac,password,first_name,last_name,rol,suscripcion,is_staff,is_superuser,is_active
+admin,admin@habita.com,+59177123456,1985-03-15,admin123,Carlos,Mendoza,Administrador,Premium,True,True,True
+propietario1,maria.lopez@example.com,+59177234567,1990-06-20,prop123,María,López,Propietario,Premium,False,False,True
+propietario2,juan.perez@example.com,+59177345678,1988-11-30,prop123,Juan,Pérez,Propietario,Básica,False,False,True
+propietario3,ana.garcia@example.com,+59177456789,1992-02-14,prop123,Ana,García,Propietario,Premium,False,False,True
+huesped1,pedro.sanchez@example.com,+59177567890,1995-08-25,huesp123,Pedro,Sánchez,Huesped,Gratis,False,False,True
+huesped2,laura.martinez@example.com,+59177678901,1993-04-10,huesp123,Laura,Martínez,Huesped,Básica,False,False,True
+huesped3,carlos.rodriguez@example.com,+59177789012,1991-12-05,huesp123,Carlos,Rodríguez,Huesped,Gratis,False,False,True
+huesped4,sofia.torres@example.com,+59177890123,1996-07-18,huesp123,Sofía,Torres,Huesped,Premium,False,False,True
+moderador1,diego.flores@example.com,+59177901234,1987-09-22,mod123,Diego,Flores,Moderador,Básica,False,False,True
+huesped5,valentina.ruiz@example.com,+59178012345,1994-01-30,huesp123,Valentina,Ruiz,Huesped,Gratis,False,False,True

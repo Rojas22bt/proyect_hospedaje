@@ -1,0 +1,5 @@
+nombre,descripcion,precio_mensual,status,duracion
+Gratis,Plan básico sin costo,0.00,Activa,Mensual
+Básica,Plan básico con funciones estándar,49.99,Activa,Mensual
+Premium,Plan premium con todas las funcionalidades,99.99,Activa,Mensual
+Empresarial,Plan para empresas con soporte prioritario,199.99,Activa,Mensual

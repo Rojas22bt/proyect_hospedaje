@@ -1,0 +1,9 @@
+usuario_correo,titulo,mensaje,tipo,leida
+maria.lopez@example.com,Nueva Reserva Recibida,Pedro Sánchez ha realizado una reserva en Casa del Sol del 15 al 20 de enero,reserva_creada,True
+pedro.sanchez@example.com,Reserva Confirmada,Tu reserva en Casa del Sol ha sido confirmada. ¡Prepárate para disfrutar!,reserva_confirmada,True
+juan.perez@example.com,Nueva Reserva Recibida,Carlos Rodríguez ha solicitado reservar Cabaña Montana,reserva_creada,False
+laura.martinez@example.com,Recordatorio Check-in,Tu check-in en Depto Centro es mañana. ¿Necesitas información adicional?,recordatorio_checkin,True
+sofia.torres@example.com,Pago Confirmado,Tu pago de $1400.00 para Villa Tropical ha sido procesado exitosamente,pago_recibido,True
+pedro.sanchez@example.com,Deja tu Reseña,¿Cómo fue tu estadía en Casa del Sol? Tu opinión nos ayuda a mejorar,recordatorio_resena,False
+maria.lopez@example.com,Reserva Completada,La reserva de Pedro Sánchez en Casa del Sol ha finalizado,reserva_completada,True
+valentina.ruiz@example.com,Reserva Aceptada,Tu reserva en Casa Familiar ha sido aceptada por el propietario,reserva_aceptada,True

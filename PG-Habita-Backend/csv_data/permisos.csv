@@ -1,0 +1,31 @@
+nombre,descripcion
+ver_usuarios,Permite ver la lista de usuarios
+crear_usuarios,Permite crear nuevos usuarios
+editar_usuarios,Permite editar usuarios existentes
+eliminar_usuarios,Permite eliminar usuarios
+ver_propiedades,Permite ver propiedades
+crear_propiedades,Permite crear nuevas propiedades
+editar_propiedades,Permite editar propiedades existentes
+eliminar_propiedades,Permite eliminar propiedades
+ver_reservas,Permite ver reservas
+crear_reservas,Permite crear nuevas reservas
+editar_reservas,Permite editar reservas existentes
+cancelar_reservas,Permite cancelar reservas
+ver_pagos,Permite ver información de pagos
+gestionar_pagos,Permite gestionar pagos y reembolsos
+ver_reportes,Permite ver reportes del sistema
+generar_reportes,Permite generar reportes avanzados
+ver_bitacora,Permite ver el registro de bitácora
+gestionar_roles,Permite gestionar roles y permisos
+gestionar_suscripciones,Permite gestionar suscripciones
+ver_notificaciones,Permite ver notificaciones
+gestionar_publicidad,Permite gestionar anuncios publicitarios
+gestionar_backups,Permite gestionar copias de seguridad
+ver_dashboard,Permite acceder al dashboard
+gestionar_servicios,Permite gestionar servicios adicionales
+ver_facturas,Permite ver facturas
+generar_facturas,Permite generar facturas
+gestionar_puntos,Permite gestionar sistema de puntos
+gestionar_recompensas,Permite gestionar recompensas
+ver_resenas,Permite ver reseñas
+moderar_resenas,Permite moderar y eliminar reseñas

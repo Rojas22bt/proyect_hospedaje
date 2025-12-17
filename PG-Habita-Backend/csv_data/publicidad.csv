@@ -1,0 +1,5 @@
+titulo,descripcion,tipo,fecha_inicio,fecha_fin,activa,creado_por_correo
+Descuento Verano 2025,Aprovecha hasta 30% de descuento en propiedades seleccionadas durante enero y febrero,promocion,2025-01-01,2025-02-28,True,admin@habita.com
+Nueva Funcionalidad: Puntos,Ahora puedes acumular puntos con cada reserva y canjearlos por descuentos,funcionalidad,2024-12-01,2025-03-31,True,admin@habita.com
+Mantenimiento Programado,El sistema estará en mantenimiento el domingo 15 de enero de 2:00 AM a 6:00 AM,aviso,2025-01-10,2025-01-16,True,admin@habita.com
+Promoción Familias,Reserva para 4 o más personas y obtén servicios adicionales gratis,promocion,2025-02-01,2025-03-31,True,admin@habita.com

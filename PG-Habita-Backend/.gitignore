@@ -1,0 +1,47 @@
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.qodo/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+/media/
+/static/
+*.log
+local_settings.py
+
+# Backups
+/backups/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Node (si usas npm)
+node_modules/
+package-lock.json

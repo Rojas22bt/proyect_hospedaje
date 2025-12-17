@@ -1,0 +1,11 @@
+propiedad_nombre,usuario_correo,fecha_checkin,fecha_checkout,cant_huesp,cant_noches,monto_total,descuento,status,pago_estado,comentario_huesp,servicios
+Casa del Sol,pedro.sanchez@example.com,2025-12-20,2025-12-25,4,5,675.00,75.00,confirmada,pagado,Excelente ubicación y vistas espectaculares,"Desayuno,Transfer"
+Depto Centro,laura.martinez@example.com,2026-01-10,2026-01-13,2,3,240.00,0.00,aceptada,pendiente,Muy cómodo y bien ubicado,Internet
+Cabaña Montana,carlos.rodriguez@example.com,2026-02-01,2026-02-05,3,4,408.00,72.00,aceptada,pagado,Perfecto para escapada de fin de semana,"Desayuno,Tour Guiado"
+Villa Tropical,sofia.torres@example.com,2026-02-10,2026-02-17,8,7,1400.00,350.00,confirmada,pagado,Ideal para reunión familiar,"Desayuno,Chef,Transfer"
+Loft Moderno,pedro.sanchez@example.com,2026-01-22,2026-01-25,2,3,285.00,15.00,aceptada,pagado,Moderno y funcional,Limpieza
+Casa Familiar,valentina.ruiz@example.com,2026-03-05,2026-03-10,6,5,855.00,45.00,aceptada,pendiente,Perfecta para niños,"Desayuno,Mascotas"
+Depto Playa,laura.martinez@example.com,2026-03-15,2026-03-20,4,5,1000.00,0.00,pendiente,pendiente,¿Incluye toallas de playa?,Transfer
+Refugio Andino,carlos.rodriguez@example.com,2026-02-20,2026-02-23,3,3,270.00,0.00,confirmada,pagado,Buscamos tranquilidad,Tour Guiado
+Penthouse Lujo,sofia.torres@example.com,2026-04-01,2026-04-08,6,7,2077.50,367.50,aceptada,pagado,Celebración de aniversario,"Desayuno,Spa,Chef"
+Casa Colonial,pedro.sanchez@example.com,2026-03-25,2026-03-28,4,3,378.00,42.00,pendiente,pendiente,Interesados en la historia local,"Desayuno,Tour Guiado"
