@@ -93,7 +93,7 @@ echo ═════════════════════════
 echo.
 
 echo Iniciando Backend en puerto 8000...
-start "🗄️ Backend Habita" cmd /k "cd PG-Habita-Backend && venv\Scripts\activate.bat && python manage.py runserver"
+start "🗄️ Backend Habita" cmd /k "cd PG-Habita-Backend && venv\Scripts\activate.bat && pip install -r requirements.txt --quiet && python manage.py runserver"
 timeout /t 3 /nobreak >nul
 
 echo Iniciando Frontend en puerto 5173...
@@ -128,6 +128,7 @@ echo ═════════════════════════
 echo.
 cd PG-Habita-Backend
 call venv\Scripts\activate.bat
+pip install -r requirements.txt --quiet
 echo Servidor backend iniciado en http://localhost:8000
 echo Presiona Ctrl+C para detener
 python manage.py runserver

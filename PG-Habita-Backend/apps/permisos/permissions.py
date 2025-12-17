@@ -12,7 +12,26 @@ class HasPermission(BasePermission):
             return True
 
         # Obtiene los permisos del payload del token
-        user_permissions = request.auth.get('permisos', [])
+        # Nota: con SimpleJWT, request.auth suele ser un Token (dict-like) y no siempre expone .get()
+        token = getattr(request, 'auth', None)
+        user_permissions = []
+
+        if token is not None:
+            # dict real
+            if isinstance(token, dict):
+                user_permissions = token.get('permisos', [])
+            else:
+                # Token/AccessToken (dict-like)
+                try:
+                    if hasattr(token, 'get'):
+                        user_permissions = token.get('permisos', [])
+                    else:
+                        user_permissions = token['permisos']
+                except Exception:
+                    try:
+                        user_permissions = token['permisos']
+                    except Exception:
+                        user_permissions = []
 
         # El nombre del permiso que se necesita para acceder a la vista
         required_permission = getattr(view, 'permission_codename', None)

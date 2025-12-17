@@ -18,6 +18,16 @@ interface DashboardStats {
     reservas_pendientes: number;
 }
 
+type ReportesMeta = Record<
+    string,
+    {
+        label: string;
+        campos: Record<string, { label: string; tipo: string }>;
+        filtros?: Record<string, { label: string; tipo: string }>;
+        agrupaciones?: string[];
+    }
+>;
+
 // Instancia de Axios
 const axiosInstance = axios.create({
     baseURL: import.meta.env.VITE_API_URL,
@@ -368,6 +378,20 @@ const api = {
  // 🔥 REPORTES
   obtenerReportesReservas: (params: string): Promise<{status: string; reporte: ReporteData}> =>
     axiosInstance.get(`api/reportes/reservas/?${params}`).then(res => res.data),
+
+    obtenerReportesMeta: (): Promise<{status: string; meta: ReportesMeta}> =>
+        axiosInstance.get('api/reportes/meta/').then(res => res.data),
+
+    generarReporteDinamico: (payload: any): Promise<{status: string; reporte: any}> =>
+        axiosInstance.post('api/reportes/dinamico/generar/', payload).then(res => res.data),
+
+    exportarReporteDinamico: (payload: any, formato: 'pdf' | 'csv' | 'excel' | 'xlsx') =>
+        axiosInstance.post(`api/reportes/dinamico/exportar/?formato=${formato}`, payload, {
+            responseType: 'blob',
+        }),
+
+    generarReportePorIA: (payload: { prompt: string; contexto_adicional?: string }): Promise<{status: string; reporte: any; config?: any}> =>
+        axiosInstance.post('api/reportes/ia/', payload).then(res => res.data),
 
   // 🔥 BITÁCORA
   obtenerBitacora: (params: string): Promise<{
