@@ -34,7 +34,9 @@ import {
     Building,
     Database,
     FileText,
-    ClipboardList
+    ClipboardList,
+    CalendarDays,
+    BookOpen
 } from 'lucide-react';
 
 interface SidebarProps {
@@ -150,7 +152,7 @@ const Sidebar: React.FC<SidebarProps> = ({
 
         const huespedItems = [
             { name: 'Dashboard', href: '/dashboard', icon: LayoutDashboard },
-            { name: 'Mis Reservas', href: '/reservas', icon: Calendar },
+            { name: 'Mis Reservas', href: '/reservas', icon: BookOpen },
             { name: 'Mis Pagos', href: '/mis-pagos', icon: CreditCard }, // 🔥 NUEVO - MIS PAGOS
             { name: 'Perfil', href: '/perfil', icon: User },
         ];
@@ -159,7 +161,7 @@ const Sidebar: React.FC<SidebarProps> = ({
         const anfitrionItems = [
             { name: 'Dashboard', href: '/dashboard', icon: LayoutDashboard },
             { name: 'Mis Propiedades', href: '/propiedades', icon: Building2 },
-            { name: 'Mis Reservas', href: '/reservas', icon: Calendar },
+            { name: 'Mis Reservas', href: '/reservas', icon: BookOpen },
             { name: 'Mis Pagos', href: '/pagos', icon: CreditCard },
             { name: 'Mi Galería', href: '/mi-galeria', icon: Image },
             { name: 'Facturación', href: '/facturacion', icon: BarChart3 },
@@ -171,7 +173,7 @@ const Sidebar: React.FC<SidebarProps> = ({
         const adminItems = [
             { name: 'Dashboard', href: '/dashboard', icon: LayoutDashboard },
             { name: 'Propiedades', href: '/propiedades', icon: Building2 },
-            { name: 'Reservas', href: '/reservas', icon: Calendar },
+            { name: 'Reservas', href: '/reservas', icon: BookOpen },
             { name: 'Pagos', href: '/pagos', icon: CreditCard },
             { name: 'Facturación', href: '/facturacion', icon: BarChart3 },
             { name: 'Galería', href: '/files', icon: Images },

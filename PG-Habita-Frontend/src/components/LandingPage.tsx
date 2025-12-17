@@ -260,6 +260,16 @@ const LandingPage: React.FC = () => {
             )}>
               Mapa
             </a>
+            <a 
+              href="/calendario"
+              className={cn(
+                "font-medium transition-all duration-300 hover:scale-105 flex items-center gap-2",
+                isScrolled ? "text-habita-secondary hover:text-habita-primary" : "text-white hover:text-yellow-200"
+              )}
+            >
+              <Calendar className="w-4 h-4" />
+              Calendario
+            </a>
             <a href="#como-funciona" className={cn(
               "font-medium transition-all duration-300 hover:scale-105",
               isScrolled ? "text-habita-secondary hover:text-habita-primary" : "text-white hover:text-yellow-200"

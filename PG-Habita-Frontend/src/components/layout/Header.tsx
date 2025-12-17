@@ -224,10 +224,10 @@ const Header: React.FC<HeaderProps> = ({ onToggleSidebar }) => {
             "bg-gradient-to-r from-habita-secondary to-habita-primary/90 border-b border-habita-primary/30 shadow-sm backdrop-blur-sm transition-all duration-500 sticky top-0 z-50",
             isScrolled && "shadow-lg bg-gradient-to-r from-habita-secondary to-habita-primary border-b-habita-primary/50"
         )}>
-            <div className="px-6 py-3">
-                <div className="flex items-center justify-between">
+            <div className="px-3 py-2">
+                <div className="flex items-center justify-between gap-2">
                     {/* Lado izquierdo */}
-                    <div className="flex items-center space-x-6">
+                    <div className="flex items-center gap-2">
                         {/* Botón menú móvil */}
                         <Button
                             variant="ghost"
@@ -239,22 +239,22 @@ const Header: React.FC<HeaderProps> = ({ onToggleSidebar }) => {
                         </Button>
 
                         {/* Logo y nombre */}
-                        <div className="flex items-center space-x-3 group cursor-pointer" onClick={() => navigate('/dashboard')}>
-                            <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-md group-hover:shadow-lg group-hover:scale-105 transition-all duration-300">
-                                <span className="text-habita-primary font-bold text-lg group-hover:text-habita-secondary transition-colors duration-300">H</span>
+                        <div className="flex items-center gap-2 group cursor-pointer" onClick={() => navigate('/dashboard')}>
+                            <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center shadow-md group-hover:shadow-lg transition-all duration-300">
+                                <span className="text-habita-primary font-bold text-sm">H</span>
                             </div>
-                            <div className="flex flex-col">
-                                <h2 className="text-xl font-bold text-white group-hover:scale-105 transition-transform duration-300">
+                            <div className="hidden lg:flex flex-col">
+                                <h2 className="text-base font-bold text-white leading-tight">
                                     Habita ERP
                                 </h2>
-                                <p className="text-white/80 text-sm group-hover:text-white transition-colors duration-300">
+                                <p className="text-white/70 text-xs leading-tight">
                                     Tu Hogar, en cualquier lugar
                                 </p>
                             </div>
                         </div>
 
                         {/* Barra de búsqueda */}
-                        <div className="hidden md:block relative w-80">
+                        <div className="hidden lg:block relative w-48 xl:w-64">
                             <div className="relative">
                                 <Search className={cn(
                                     "absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 z-10 transition-all duration-300",
@@ -274,62 +274,65 @@ const Header: React.FC<HeaderProps> = ({ onToggleSidebar }) => {
                     </div>
 
                     {/* Lado derecho */}
-                    <div className="flex items-center space-x-4">
+                    <div className="flex items-center gap-1.5">
                         {/* 🔥 BOTÓN LLAMATIVO PARA PROPIEDADES EN ALQUILER */}
-                        <div className="hidden lg:block">
+                        <div className="hidden xl:block">
                             <Button
                                 onMouseEnter={() => setIsPropertiesHovered(true)}
                                 onMouseLeave={() => setIsPropertiesHovered(false)}
                                 onClick={() => navigate('/')}
+                                size="sm"
                                 className={cn(
-                                    "relative overflow-hidden bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-orange-500 hover:to-yellow-400 text-white font-bold py-2 px-4 rounded-xl shadow-2xl transition-all duration-500 transform border-2 border-yellow-300",
-                                    isPropertiesHovered ? "scale-105 shadow-2xl shadow-orange-300" : "scale-100 shadow-lg",
-                                    "animate-pulse-glow"
+                                    "relative overflow-hidden bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-orange-500 hover:to-yellow-400 text-white font-semibold px-3 rounded-lg shadow-lg transition-all duration-500 transform border border-yellow-300",
+                                    isPropertiesHovered ? "scale-105 shadow-xl shadow-orange-300" : "scale-100",
+                                    "h-8"
                                 )}
                             >
                                 {/* Efecto de partículas */}
                                 {isPropertiesHovered && (
                                     <>
-                                        <div className="absolute inset-0 bg-white bg-opacity-20 animate-ping rounded-xl"></div>
-                                        <div className="absolute -inset-1 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-xl blur opacity-30 animate-pulse"></div>
+                                        <div className="absolute inset-0 bg-white bg-opacity-20 animate-ping rounded-lg"></div>
+                                        <div className="absolute -inset-1 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-lg blur opacity-30 animate-pulse"></div>
                                     </>
                                 )}
 
-                                <div className="relative z-10 flex items-center gap-2">
-                                    <Key className={cn(
-                                        "h-4 w-4 transition-transform duration-500",
-                                        isPropertiesHovered ? "animate-bounce rotate-12" : "animate-pulse"
-                                    )} />
-                                    <span className="font-bold text-sm whitespace-nowrap">
+                                <div className="relative z-10 flex items-center gap-1.5">
+                                    <Key className="h-3.5 w-3.5" />
+                                    <span className="text-xs whitespace-nowrap">
                                         Propiedades en Alquiler
                                     </span>
-                                    <TrendingUp className={cn(
-                                        "h-4 w-4 transition-transform duration-500",
-                                        isPropertiesHovered ? "animate-bounce -rotate-12" : ""
-                                    )} />
                                 </div>
 
                                 {/* Badge flotante */}
-                                <Badge className="absolute -top-2 -right-2 bg-green-500 text-white border-2 border-white animate-bounce-soft text-xs px-1 py-0 min-w-[20px] h-5 flex items-center justify-center">
-                                    <Sparkles className="h-2 w-2 mr-1" />
+                                <Badge className="absolute -top-1.5 -right-1.5 bg-green-500 text-white border border-white text-xs px-1 h-4 flex items-center justify-center">
                                     Nuevo
                                 </Badge>
                             </Button>
                         </div>
 
+                        {/* Botón de Calendario */}
+                        <Button
+                            variant="ghost"
+                            size="sm"
+                            onClick={() => navigate('/calendario')}
+                            className="hidden lg:flex text-white hover:bg-white/20 items-center gap-1.5 transition-all duration-200 h-8 px-2"
+                        >
+                            <Calendar className="h-4 w-4" />
+                            <span className="text-sm">Calendario</span>
+                        </Button>
+
                         {/* Acciones rápidas */}
-                        <div className="hidden lg:flex items-center space-x-2">
+                        <div className="hidden lg:flex items-center gap-1">
                             {quickActions.map((action, index) => (
                                 <Button
                                     key={index}
                                     variant="ghost"
                                     size="sm"
                                     onClick={action.onClick}
-                                    className="text-white hover:bg-white/20 hover:scale-105 active:scale-95 flex items-center space-x-2 transition-all duration-200 animate-in slide-in-from-right-8"
-                                    style={{ animationDelay: `${index * 100}ms` }}
+                                    className="text-white hover:bg-white/20 hover:scale-105 active:scale-95 flex items-center gap-1.5 transition-all duration-200 h-8 px-2"
                                 >
                                     <action.icon className="h-4 w-4" />
-                                    <span className="hidden xl:inline">{action.label}</span>
+                                    <span className="text-sm">{action.label}</span>
                                 </Button>
                             ))}
                         </div>

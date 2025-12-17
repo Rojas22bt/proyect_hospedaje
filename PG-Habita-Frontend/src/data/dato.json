@@ -1,0 +1,332 @@
+{
+  "calendario_anual_habita_ai": [
+    {
+      "mes": "ENERO",
+      "eventos": [
+        {
+          "dia": 1,
+          "evento": "Año Nuevo",
+          "tipo_evento": "Nacional",
+          "lugar": "Santa Cruz de la Sierra",
+          "provincia": "Andrés Ibáñez",
+          "hospedajes_cercanos": [
+            { "nombre": "Los Tajibos", "tipo": "Lujo" },
+            { "nombre": "Marriott Santa Cruz", "tipo": "Corporativo" }
+          ]
+        },
+        {
+          "dia": 4,
+          "evento": "Batalla de Oconi",
+          "tipo_evento": "Histórico",
+          "lugar": "Oconi",
+          "provincia": "Manuel María Caballero",
+          "hospedajes_cercanos": [
+            { "nombre": "Hostal Comarapa", "tipo": "Local" }
+          ]
+        },
+        {
+          "dia": 22,
+          "evento": "Aniversario de Vallegrande",
+          "tipo_evento": "Cívico",
+          "lugar": "Vallegrande",
+          "provincia": "Vallegrande",
+          "hospedajes_cercanos": [
+            { "nombre": "Hotel Plaza Vallegrande", "tipo": "Centro" },
+            { "nombre": "Hostal Santa María", "tipo": "Familiar" }
+          ]
+        },
+        {
+          "dia": 24,
+          "evento": "Fiesta Patronal de El Puente - Virgen de La Paz",
+          "tipo_evento": "Religioso",
+          "lugar": "El Puente",
+          "provincia": "Guarayos",
+          "hospedajes_cercanos": [
+            { "nombre": "Posada El Puente", "tipo": "Local" }
+          ]
+        }
+      ]
+    },
+    {
+      "mes": "FEBRERO",
+      "eventos": [
+        {
+          "dia": 2,
+          "evento": "Virgen de la Candelaria",
+          "tipo_evento": "Religioso",
+          "lugar": "Samaipata",
+          "provincia": "Florida",
+          "hospedajes_cercanos": [
+            { "nombre": "El Pueblito Resort", "tipo": "Boutique" }
+          ]
+        },
+        {
+          "dia": 14,
+          "evento": "Independencia de Santa Cruz",
+          "tipo_evento": "Cívico",
+          "lugar": "Santa Cruz de la Sierra",
+          "provincia": "Andrés Ibáñez",
+          "hospedajes_cercanos": [
+            { "nombre": "Hotel Cortez", "tipo": "Ejecutivo" }
+          ]
+        },
+        {
+          "dia": 26,
+          "evento": "Fundación de Santa Cruz de la Sierra",
+          "tipo_evento": "Histórico",
+          "lugar": "Santa Cruz de la Sierra",
+          "provincia": "Andrés Ibáñez",
+          "hospedajes_cercanos": [
+            { "nombre": "Swissôtel", "tipo": "Lujo" }
+          ]
+        }
+      ]
+    },
+    {
+      "mes": "MARZO",
+      "eventos": [
+        {
+          "dia": 8,
+          "evento": "Fiesta Patronal de San Juan de Dios",
+          "tipo_evento": "Religioso",
+          "lugar": "San Miguel",
+          "provincia": "Velasco",
+          "hospedajes_cercanos": [
+            { "nombre": "Posada Misional", "tipo": "Cultural" }
+          ]
+        },
+        {
+          "dia": 19,
+          "evento": "Fundación de San José de Chiquitos",
+          "tipo_evento": "Histórico / Religioso",
+          "lugar": "San José de Chiquitos",
+          "provincia": "Chiquitos",
+          "hospedajes_cercanos": [
+            { "nombre": "Hotel La Villa Chiquitana", "tipo": "Turismo Cultural" }
+          ]
+        }
+      ]
+    },
+    {
+      "mes": "ABRIL",
+      "eventos": [
+        {
+          "dia": 8,
+          "evento": "Aniversario de la Provincia Ichilo",
+          "tipo_evento": "Cívico",
+          "lugar": "Buenavista",
+          "provincia": "Ichilo",
+          "hospedajes_cercanos": [
+            { "nombre": "Hotel Amboró Eco Resort", "tipo": "Ecológico" }
+          ]
+        },
+        {
+          "dia": 24,
+          "evento": "Fundación de Lagunillas",
+          "tipo_evento": "Histórico",
+          "lugar": "Lagunillas",
+          "provincia": "Cordillera",
+          "hospedajes_cercanos": [
+            { "nombre": "Residencial Lagunillas", "tipo": "Local" }
+          ]
+        }
+      ]
+    },
+    {
+      "mes": "MAYO",
+      "eventos": [
+        {
+          "dia": 13,
+          "evento": "Virgen de Fátima",
+          "tipo_evento": "Religioso",
+          "lugar": "Pailón",
+          "provincia": "Chiquitos",
+          "hospedajes_cercanos": [
+            { "nombre": "Residencial Pailón", "tipo": "Económico" }
+          ]
+        },
+        {
+          "dia": 30,
+          "evento": "Fundación de Samaipata",
+          "tipo_evento": "Histórico",
+          "lugar": "Samaipata",
+          "provincia": "Florida",
+          "hospedajes_cercanos": [
+            { "nombre": "Hostal Quinta Concha", "tipo": "Familiar" }
+          ]
+        }
+      ]
+    },
+    {
+      "mes": "JUNIO",
+      "eventos": [
+        {
+          "dia": 13,
+          "evento": "San Antonio de Lomerío",
+          "tipo_evento": "Religioso",
+          "lugar": "San Antonio de Lomerío",
+          "provincia": "Ñuflo de Chávez",
+          "hospedajes_cercanos": [
+            { "nombre": "Cabañas Comunitarias Lomerío", "tipo": "Comunitario" }
+          ]
+        },
+        {
+          "dia": 23,
+          "evento": "San Juan Bautista de Porongo",
+          "tipo_evento": "Religioso",
+          "lugar": "Porongo",
+          "provincia": "Andrés Ibáñez",
+          "hospedajes_cercanos": [
+            { "nombre": "Colpa Caranda Eco Resort", "tipo": "Naturaleza" }
+          ]
+        }
+      ]
+    },
+    {
+      "mes": "JULIO",
+      "eventos": [
+        {
+          "dia": 12,
+          "evento": "Fundación de Camiri",
+          "tipo_evento": "Cívico",
+          "lugar": "Camiri",
+          "provincia": "Cordillera",
+          "hospedajes_cercanos": [
+            { "nombre": "Hotel El Doral", "tipo": "Ejecutivo" }
+          ]
+        },
+        {
+          "dia": 31,
+          "evento": "Fundación de San Ignacio de Velasco",
+          "tipo_evento": "Histórico / Religioso",
+          "lugar": "San Ignacio de Velasco",
+          "provincia": "Velasco",
+          "hospedajes_cercanos": [
+            { "nombre": "Hotel de la Misión", "tipo": "Histórico" }
+          ]
+        }
+      ]
+    },
+    {
+      "mes": "AGOSTO",
+      "eventos": [
+        {
+          "dia": 6,
+          "evento": "Independencia de Bolivia",
+          "tipo_evento": "Nacional",
+          "lugar": "Todo el país",
+          "provincia": "Nacional",
+          "hospedajes_cercanos": []
+        },
+        {
+          "dia": 15,
+          "evento": "Virgen de la Asunta",
+          "tipo_evento": "Religioso",
+          "lugar": "Chochis / El Portón",
+          "provincia": "Chiquitos",
+          "hospedajes_cercanos": [
+            { "nombre": "Hotel Chochis", "tipo": "Naturaleza" }
+          ]
+        }
+      ]
+    },
+    {
+      "mes": "SEPTIEMBRE",
+      "eventos": [
+        {
+          "dia": 8,
+          "evento": "Virgen de Guadalupe",
+          "tipo_evento": "Religioso",
+          "lugar": "Vallegrande",
+          "provincia": "Vallegrande",
+          "hospedajes_cercanos": [
+            { "nombre": "Hotel Vallegrande", "tipo": "Turismo" }
+          ]
+        },
+        {
+          "dia": 24,
+          "evento": "Efeméride de Santa Cruz / EXPOCRUZ",
+          "tipo_evento": "Cívico / Cultural",
+          "lugar": "Santa Cruz de la Sierra",
+          "provincia": "Andrés Ibáñez",
+          "hospedajes_cercanos": [
+            { "nombre": "Hampton by Hilton", "tipo": "Negocios" }
+          ]
+        }
+      ]
+    },
+    {
+      "mes": "OCTUBRE",
+      "eventos": [
+        {
+          "dia": 7,
+          "evento": "Virgen del Rosario",
+          "tipo_evento": "Religioso",
+          "lugar": "Warnes",
+          "provincia": "Warnes",
+          "hospedajes_cercanos": [
+            { "nombre": "Sun Hotel", "tipo": "Aeropuerto" }
+          ]
+        },
+        {
+          "dia": 25,
+          "evento": "Fundación de Roboré",
+          "tipo_evento": "Cívico",
+          "lugar": "Roboré",
+          "provincia": "Chiquitos",
+          "hospedajes_cercanos": [
+            { "nombre": "Hotel Beula", "tipo": "Turismo Natural" }
+          ]
+        }
+      ]
+    },
+    {
+      "mes": "NOVIEMBRE",
+      "eventos": [
+        {
+          "dia": 2,
+          "evento": "Todos los Santos",
+          "tipo_evento": "Nacional / Cultural",
+          "lugar": "Todo el país",
+          "provincia": "Nacional",
+          "hospedajes_cercanos": []
+        },
+        {
+          "dia": 10,
+          "evento": "Fundación de Puerto Suárez",
+          "tipo_evento": "Cívico",
+          "lugar": "Puerto Suárez",
+          "provincia": "Germán Busch",
+          "hospedajes_cercanos": [
+            { "nombre": "Hotel Pantanal", "tipo": "Frontera" }
+          ]
+        }
+      ]
+    },
+    {
+      "mes": "DICIEMBRE",
+      "eventos": [
+        {
+          "dia": 8,
+          "evento": "Virgen de Cotoca",
+          "tipo_evento": "Religioso",
+          "lugar": "Cotoca",
+          "provincia": "Andrés Ibáñez",
+          "hospedajes_cercanos": [
+            { "nombre": "Hostal Cotoca", "tipo": "Peregrino" }
+          ]
+        },
+        {
+          "dia": 31,
+          "evento": "Fundación de San Javier",
+          "tipo_evento": "Histórico / Religioso",
+          "lugar": "San Javier",
+          "provincia": "Ñuflo de Chávez",
+          "hospedajes_cercanos": [
+            { "nombre": "Gran Hotel San Javier", "tipo": "Misional" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -28,6 +28,7 @@ import Register from '@/pages/Register';
 import BackupPage from '@/pages/admin/BackupPage';
 import ReportesPage from '@/pages/ReportesPage'; // 🔥 NUEVA IMPORTACIÓN
 import BitacoraPage from '@/pages/BitacoraPage'; // 🔥 NUEVA IMPORTACIÓN
+import CalendarioPage from '@/pages/CalendarioPage'; // 🔥 NUEVA IMPORTACIÓN
 
 const queryClient = new QueryClient({
     defaultOptions: {
@@ -50,6 +51,7 @@ const App = () => (
                         <Route path="/login" element={<Login />} />
                         <Route path="/registro" element={<Register />} />
                         <Route path="/unauthorized" element={<Unauthorized />} />
+                        <Route path="/calendario" element={<CalendarioPage />} />
 
                         <Route path="/" element={
                             <ProtectedRoute>
