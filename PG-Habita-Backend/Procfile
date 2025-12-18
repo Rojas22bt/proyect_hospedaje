@@ -1,2 +1,2 @@
-release: python manage.py migrate && python load_csv_data.py
-web: gunicorn Habita_Backend.wsgi --log-file -
+release: python manage.py migrate --noinput
+web: python manage.py migrate --noinput && python load_csv_data.py && gunicorn Habita_Backend.wsgi --log-file -
