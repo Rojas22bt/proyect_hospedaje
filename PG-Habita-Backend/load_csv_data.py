@@ -455,10 +455,22 @@ def main():
     print("="*60)
     
     try:
-        # Preguntar si desea limpiar la base de datos
-        respuesta = input("\n⚠️  ¿Desea limpiar la base de datos antes de cargar? (s/n): ")
-        if respuesta.lower() == 's':
+        # En producción (Railway), auto-limpiar si la variable de entorno está configurada
+        import os
+        auto_clean = os.environ.get('AUTO_CLEAN_DB', 'false').lower() == 'true'
+        
+        if auto_clean:
+            print("\n🔄 Auto-limpiando base de datos...")
             limpiar_base_datos()
+        else:
+            # Preguntar si desea limpiar la base de datos (solo en desarrollo)
+            try:
+                respuesta = input("\n⚠️  ¿Desea limpiar la base de datos antes de cargar? (s/n): ")
+                if respuesta.lower() == 's':
+                    limpiar_base_datos()
+            except EOFError:
+                # Si no hay terminal interactiva, omitir limpieza
+                print("\n⚠️  No hay terminal interactiva, omitiendo limpieza...")
         
         # Cargar datos en orden de dependencias
         cargar_permisos()
