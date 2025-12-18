@@ -124,6 +124,7 @@ else:
     }
 
 CORS_ALLOWED_ORIGINS = [
+    "https://projectshost.netlify.app",
     "https://habita.up.railway.app",
     "https://habitaback-production.up.railway.app",
     "http://localhost:3000",
@@ -212,6 +213,7 @@ ALLOWED_HOSTS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
+    'https://projectshost.netlify.app',
     'https://*.railway.app',
     'https://habitaback-production.up.railway.app',
     'http://localhost:3000',
